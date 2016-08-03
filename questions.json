@@ -1,0 +1,492 @@
+[
+  {
+    "Question": "Do you cover travel to conferences? How many conferences a year do devs typically go to?",
+    "Hint": "",
+    "Category": "Career Development"
+  },
+  {
+    "Question": "Does your company support continuing education? Will they pay for employees to level-up their degree?",
+    "Hint": "",
+    "Category": "Career Development"
+  },
+  {
+    "Question": "In what other ways do you support career development?",
+    "Hint": "",
+    "Category": "Career Development"
+  },
+  {
+    "Question": "How does your company handle mentorship?",
+    "Hint": "See Lean In for a great example.",
+    "Category": "Career Development"
+  },
+  {
+    "Question": "Do you contribute to open source projects? Which projects? Which teams work on open source? Do you work mostly in the community or do you have a private fork?",
+    "Hint": "",
+    "Category": "Community Involvement"
+  },
+  {
+    "Question": "Do your employees speak at conferences about your work? Are employees encouraged to go to conferences?",
+    "Hint": "",
+    "Category": "Community Involvement"
+  },
+  {
+    "Question": "Are you guys doing any outreach work in the local community?",
+    "Hint": "",
+    "Category": "Community Involvement"
+  },
+  {
+    "Question": "Is the company actively contributing to open source and are staff being given credit?",
+    "Hint": "",
+    "Category": "Community Involvement"
+  },
+  {
+    "Question": "How do you determine if someone is a poor fit for your company?",
+    "Hint": "",
+    "Category": "Culture"
+  },
+  {
+    "Question": "How are your teams structured? What is the management structure like?",
+    "Hint": "",
+    "Category": "Culture"
+  },
+  {
+    "Question": "How often do you pair? What is pairing like? How often do inexperienced people work directly with experienced people?",
+    "Hint": "",
+    "Category": "Culture"
+  },
+  {
+    "Question": "What is the on-boarding process like?",
+    "Hint": "",
+    "Category": "Culture"
+  },
+  {
+    "Question": "Is there any sort of institutionalized way of dealing with plateauing or preventing burnout?",
+    "Hint": "Expecting to hear about rotation of duties or location, sabbaticals.",
+    "Category": "Culture"
+  },
+  {
+    "Question": "Is it easy to move to other divisions or offices?",
+    "Hint": "",
+    "Category": "Culture"
+  },
+  {
+    "Question": "How does internal communication work? This one is super important and I need to remember to ask it more.",
+    "Hint": "",
+    "Category": "Culture"
+  },
+  {
+    "Question": "How many hours a week does senior management work? Do they put in 80-hour weeks?",
+    "Hint": "",
+    "Category": "Culture"
+  },
+  {
+    "Question": "What's the process like? How do you build software? Do you describe yourself as \"lean\", \"agile\", or \"scrum\"?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "How do designers work with developers?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "What's the state of automated testing? Continuous integration?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "How big are the teams? How big will my team be?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Do you use version control?",
+    "Hint": "if not, the interview should be over",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Do you test your code?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "How do you make sure that all code is understood by more than one person?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Do you do code review? Does all code get reviewed?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Do you have an issue tracker?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Describe your deployment process  how do you find bugs in your teams code? What recourse do you have when you find a serious bug in production code?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Who is responsible for doing deployment? How often do you deploy?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "How do you think about code correctness?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "When something goes wrong, how do you handle it? Do devs get shamed for breaking the build?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "How/when do developers talk to non-developers? Is it easy to talk to the people who are will be using your product?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Can I see some code the team I am interviewing for has written? (from an open-source project you work on, for example)",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Who are the people at your company with a lot of depth of experience? Will I be able to talk to them?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "What's your approach to technical debt?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Are new features normally A/B tested on sample groups of users prior to being rolled out to all users?",
+    "Hint": "",
+    "Category": "Engineering Practices"
+  },
+  {
+    "Question": "Are you profitable? If not, how does this affect what you can do? What is your planned time-line for becoming profitable?",
+    "Hint": "",
+    "Category": "Financials/Business Model/Growth"
+  },
+  {
+    "Question": "How do you make money?",
+    "Hint": "Can it be explained to your parents or non-technical friends what the companies business models is to test if it really makes sense.",
+    "Category": "Financials/Business Model/Growth"
+  },
+  {
+    "Question": "How much are you planning to hire in the next year?",
+    "Hint": "",
+    "Category": "Financials/Business Model/Growth"
+  },
+  {
+    "Question": "Are company financials, minus salaries, transparent throughout the company?",
+    "Hint": "",
+    "Category": "Financials/Business Model/Growth"
+  },
+  {
+    "Question": "What do you wish you had known when you joined this company?",
+    "Hint": "",
+    "Category": "Interpersonal"
+  },
+  {
+    "Question": "Why did you choose to join this company?",
+    "Hint": "",
+    "Category": "Interpersonal"
+  },
+  {
+    "Question": "What's the coolest thing you've built here, personally?",
+    "Hint": "",
+    "Category": "Interpersonal"
+  },
+  {
+    "Question": "What do you wish you had known about the company before working here? What's the worst part of this job?",
+    "Hint": "",
+    "Category": "Interpersonal"
+  },
+  {
+    "Question": "Can you tell me about how the interview process is structured? How many interviews are there?",
+    "Hint": "",
+    "Category": "Interviewing Process"
+  },
+  {
+    "Question": "Do candidates write code and/or pair program during their interviews? Is pair programming common on developer teams?",
+    "Hint": "",
+    "Category": "Interviewing Process"
+  },
+  {
+    "Question": "What kind of steps do you take during candidate interviews to determine if they would mesh well with their new team? How do you determine how each side takes feedback, for example?",
+    "Hint": "",
+    "Category": "Interviewing Process"
+  },
+  {
+    "Question": "Can anyone on a team veto a new hire to that team without fear of possible repercussions?",
+    "Hint": "",
+    "Category": "Interviewing Process"
+  },
+  {
+    "Question": "Is the on boarding process for a new hire carefully considered? Tell me about it.",
+    "Hint": "",
+    "Category": "Interviewing Process"
+  },
+  {
+    "Question": "Is there any allowance for remote work?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "How does engineering work get assigned?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "How are technical decisions made and communicated?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "How do you balance support work and feature development?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "Can you give me an example of someone whose been in a technical role at your company for a long time, and how their responsibilities and role have changed?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "Do you have a dedicated designer? QA? Technical writer? Dev manager?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "How often do you have meetings? Are there any scheduled/standing meetings? Who talks to customers (if appropriate) and how?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "Has there been a situation where someone raised an ethical concern? If so, how was it handled? If not, have there really not been any?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "How are decisions made? Is architecture dictated top down? Are ideas from anyone welcomed? If so, in what scope/context?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "How are disagreements solved - both technical disagreements and other kinds? What happens when personalities clash?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "Can you tell me about a time when you've had to let someone go?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "Is there a written roadmap all developers can see? How far into the future does it extend? How closely is it followed?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "How is performance evaluated?",
+    "Hint": "",
+    "Category": "Management Style"
+  },
+  {
+    "Question": "Why are you hiring? Is this a new product? Scaling? Did someone recently quit?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Are there core business hours?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Do you use source control?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Can you deploy to production with one command?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Do you deploy throughout the day? Is it normal for someone on their first day to see their code in production?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Do you have an issue tracker? Is there a clear process for Support escalating issues and being involved with writing reproduction steps of the bug? Does support know when bugs they report are fixed?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Do dev leads spend time paying back technical debt or include dev cycles to fix issues? Is it common to write new code while bugs are known to exist?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Do you have a feature roadmap/schedule maintained by a dev lead and/or project manager?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Do you have a clear spec for the features you develop that focuses on the intention and constraints, and not the implementation?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Are company financials, minus salaries, transparent throughout the company? Is it easy to see how much revenue was made via a company-wide-accessible dashboard?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Do you use a combination of unit tests and full-stack integration tests that also test frontend JavaScript?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Can you choose your own tools within reason? Do you use the best tools money can buy?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Is your main product running on the most recent stable release of the software that powers it?",
+    "Hint": "E.g. Are you preparing to run Node 5 soon after it’s released? Are you on Node 4 yet?",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Are designers involved from the very beginning of feature development?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Is UX testing conducted by usability experts and if so, is it a part of feature planning and development?",
+    "Hint": "Note that we are talking about ethnographic research, and user testing, etc. here.",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Is there a system for determining root causes of failure without blame, that assumes everyone has done the best they could when things go wrong catastrophically?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Is your development team against shaming individuals for failure?",
+    "Hint": "E.g. an “I broke the build” token of some sort.",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "What is your turnover rate like? How many devs were hired last year and how many left?",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "How fast are you growing? (Hint: your personal growth will often map to the company’s.)",
+    "Hint": "",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "Can you tell me about someone on your team you admire? Can you tell me about someone on the other team that you admire?",
+    "Hint": "It let me learn about what people valued based on why people were admired, and gave some depth-of-bench sense whether there were lots of distinct names, or if everyone was in awe of the one good person on the team. Use the latter to determine cross-functional team health",
+    "Category": "Organizational Health"
+  },
+  {
+    "Question": "How is the office space physically organized?",
+    "Hint": "Depending on your working style, as",
+    "Category": "Other"
+  },
+  {
+    "Question": "How often do you offer above asking? Can I speak with someone who got such an offer?",
+    "Hint": "",
+    "Category": "Other"
+  },
+  {
+    "Question": "What *exactly* will I be working on? What's the tech stack?",
+    "Hint": "",
+    "Category": "Personal Recon"
+  },
+  {
+    "Question": "How much vacation do people get? If there's unlimited vacation,",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "how much vacation do people normally take?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "Is it possible to take sabbaticals or unpaid vacation?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "How many women work for you? What's your process for making sure you have diversity in other ways?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "How many hours do people work in an average week? In your busiest weeks?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "Is variability tolerated or is everyone expected to be on the same schedule?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "What time do people normally leave work?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "Would I need to be on call? How often?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "How often are there emergencies or times when people have to work extra hours?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "What is your turnover rate like? How many devs were hired last year and how many left?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "What's your retention rate of women over 1.5 years? Do you think you could've done anything differently to keep people who left?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "Do people work on the weekend?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "Do people check in when they're on vacation? How often?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "Are there catered meals?",
+    "Hint": "",
+    "Category": "Quality of life"
+  },
+  {
+    "Question": "Is it possible to work from home, say, 1 or 2 days a week? Does anyone do this?",
+    "Hint": "",
+    "Category": "Quality of life"
+  }
+]
