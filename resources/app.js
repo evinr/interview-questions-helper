@@ -95,6 +95,12 @@ function renderLightbox(target) {
 	// add elements to the lightbox 
 	var viewPageElement = document.getElementById('viewPageWrapper');
 
+	// Catagory
+	// Questions
+	// Hint
+	// Save
+
+
 	// a. Event date(day, month)
 	// b. Event time
 	var date = document.createElement('h3');
@@ -138,7 +144,6 @@ function renderLightbox(target) {
 }
 
 function renderData (dataObj) {
-	console.log(dataObj)
 	data = dataObj;
 	// data = dataObj.categories.EnglishEvents2015.entries
 	// used for lightbox navigation
