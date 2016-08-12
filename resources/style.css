@@ -168,8 +168,10 @@ main {
 	font-size: larger;
 }
 
-#viewPageWrapper h3 {
+#viewPageWrapper h2 {
 	margin-top: 0px;
+	margin-left:  15px;
+	margin-right: 10px;
 	margin-bottom: 5px;
 	color: #2c3e50;
 }
@@ -182,7 +184,7 @@ main {
 	overflow-y: auto;
 }
 
-button.rsvp { 
+button.save { 
 	position: absolute;
 	left: 41%;
 	bottom: 4%;

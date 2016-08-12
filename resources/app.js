@@ -3,12 +3,11 @@ var data;
 
 function loadData() {
 	var targetUrl = '/questions.json';
-	// var proxy = 'http://cors.io/?u=';
     var xhttp;
     xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (xhttp.readyState == 4 && xhttp.status == 200) {
-       		renderData(JSON.parse(xhttp.responseText))
+       		renderData(JSON.parse(xhttp.responseText)) //TODO: Version this for backwards compatability
             
             // removes the loading animation
             var child = document.getElementsByClassName('loader')[0];
@@ -41,8 +40,24 @@ function updateListener (targetId) {
 		renderLightbox(targetElementNumber - 1);
 	}
 
-	if (targetField === 'rsvp') {
-		window.open(data[targetElementNumber].rsvp)
+
+	// Web App Basics 
+	if (targetField === 'new') {
+		createNewInstance();
+	}
+
+	if (targetField === 'save') {
+		saveQuestionToInstance(targetId);
+	}
+
+	if (targetField === 'browse') {
+		// TODO: Retrieve all of the instances from the device/cloud
+		// TODO: Render results to the lightbox
+	}
+
+	if (targetField === 'share') {
+		// TODO: Create a way to share via a hashmap or string
+		
 	}
 
 }
@@ -72,6 +87,22 @@ function closeLightbox () {
 	modal.className = 'modalDialog';
 }
 
+function createNewInstance () {
+	console.log('NEEDS TO BE IMPLEMENTED')
+	// TODO: Create a random GUID and attach a name format of name-yyyy-mm-dd
+
+	//TODO: Collect from the lightbox
+
+	//TODO: Create UI element to kick off this function
+}
+
+function saveQuestionToInstance () {
+	console.log('NEEDS TO BE IMPLEMENTED')
+	// TODO: Add an animation with a star doing something cool
+	// TODO: Save the key/target id and add some checking on the version
+	// 
+}
+
 function renderLightbox(target) {
 	// check to see if we need to loop based on numberOfElements
 	if ( target === -1) {
@@ -95,45 +126,29 @@ function renderLightbox(target) {
 	// add elements to the lightbox 
 	var viewPageElement = document.getElementById('viewPageWrapper');
 
-	// Catagory
+	// Category
 	// Questions
 	// Hint
 	// Save
 
+	// TODO: Make this a dropdown for an easy way to switch categories
+	var category = document.createElement('p');
+	category.appendChild(document.createTextNode(data[target].Category));
+	viewPageElement.appendChild(category);
 
-	// a. Event date(day, month)
-	// b. Event time
-	var date = document.createElement('h3');
-	date.appendChild(document.createTextNode(data[target].month + ' ' + dateOrdinal(data[target].day) + ' at ' + data[target].time));
-	viewPageElement.appendChild(date);
+	var questions = document.createElement('h2');
+	questions.appendChild(document.createTextNode(data[target].Question));
+	viewPageElement.appendChild(questions);
 
-	// c. Event Store location and Store Floor
-	var store = document.createElement('h3');
-	store.appendChild(document.createTextNode(data[target].storename + ': ' + data[target].floor));
-	viewPageElement.appendChild(store);
+	var hint = document.createElement('p');
+	hint.appendChild(document.createTextNode(data[target].Hint));
+	viewPageElement.appendChild(hint);
 
-	// d. Event City
-	var city = document.createElement('h3');
-	city.appendChild(document.createTextNode(data[target].city + ', ' + data[target].state));
-	viewPageElement.appendChild(city);
-
-	// // e. Event Description
-	var description = document.createElement('p');
-	description.appendChild(document.createTextNode(data[target].desc.split('TO RSVP TO THIS EVENT PLEASE VISIT')[0]));
-	viewPageElement.appendChild(description);
-
-	// // f. RSVP url if applicable.
-	var button = document.createElement('button');
-	button.className = 'flat-button rsvp';
-	button.id = 'rsvp-' + target;
-	button.appendChild(document.createTextNode('RSVP'));
-	viewPageElement.appendChild(button);
-	if (data[target].rsvp !=='N/A') {
-		button.style.visibility = 'visible';
-	}
-	else {
-		button.style.visibility = 'hidden';
-	}
+	var save = document.createElement('button');
+	save.className = 'flat-button save';
+	save.id = 'save-' + target;
+	save.appendChild(document.createTextNode('SAVE'));
+	viewPageElement.appendChild(save);
 
 	//update the ID's on the previous and next buttons
 	var prevButton = document.getElementsByClassName('prev')[0];
@@ -145,15 +160,12 @@ function renderLightbox(target) {
 
 function renderData (dataObj) {
 	data = dataObj;
-	// data = dataObj.categories.EnglishEvents2015.entries
-	// used for lightbox navigation
 	numberOfElements = data.length;
 
 	// catagory 
 	// question
 	// save 
 	// expanded mode
-console.log(data.length)
 	for (i = 0; i < data.length; i++) {
 			var card = document.createElement('div');
 			card.className = 'card';
@@ -176,7 +188,7 @@ console.log(data.length)
 					var button = document.createElement('button');
 					button.className = 'flat-button';
 					button.id = 'lightbox-' + i;
-					button.appendChild(document.createTextNode('See More Details'));
+					button.appendChild(document.createTextNode('Expanded View'));
 
 				card.appendChild(button);
 				
